@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220704 16:53:13.989" rpa="false" schemaversion="3">
+<suite id="s1" name="Test" source="C:\Users\sophie.curinier\OneDrive - PRECIA MOLEN\Intership\Strategy\Proof\SquashAutomn\robot\Internship\test.robot">
+<test id="s1-t1" name="Connexion en tant que superviseur" line="9">
+<kw name="Ouverture du menu de navigation" library="keywords">
+<kw name="Verification existence du menu navigation">
+<msg timestamp="20220704 16:53:14.043" level="FAIL">No keyword with name 'Verification existence du menu navigation' found.</msg>
+<status status="FAIL" starttime="20220704 16:53:14.043" endtime="20220704 16:53:14.044"/>
+</kw>
+<kw name="Appuyer boutton menu navigation">
+<status status="NOT RUN" starttime="20220704 16:53:14.045" endtime="20220704 16:53:14.045"/>
+</kw>
+<status status="FAIL" starttime="20220704 16:53:14.042" endtime="20220704 16:53:14.045"/>
+</kw>
+<status status="FAIL" starttime="20220704 16:53:14.041" endtime="20220704 16:53:14.046">No keyword with name 'Verification existence du menu navigation' found.</status>
+</test>
+<doc>A test suite for test Squash TM.
+
+Keywords are imported from the resource file</doc>
+<status status="FAIL" starttime="20220704 16:53:13.992" endtime="20220704 16:53:14.048"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220704 16:53:14.037" level="ERROR">Error in file 'C:\Users\sophie.curinier\OneDrive - PRECIA MOLEN\Intership\Strategy\Proof\SquashAutomn\robot\Internship\keywords.resource' on line 4: Importing library 'C:\Users\sophie.curinier\OneDrive - PRECIA MOLEN\Intership\Strategy\Proof\SquashAutomn\robot\Internship\Testsuite.py' failed: ModuleNotFoundError: No module named 'squishtest'
+Traceback (most recent call last):
+  File "C:\Users\sophie.curinier\OneDrive - PRECIA MOLEN\Intership\Strategy\Proof\SquashAutomn\robot\Internship\Testsuite.py", line 1, in &lt;module&gt;
+    import squishtest
+PYTHONPATH:
+  C:\Users\sophie.curinier\OneDrive - PRECIA MOLEN\Intership\Strategy\Proof\SquashAutomn\robot\Internship
+  C:\Users\sophie.curinier\AppData\Local\Programs\Python\Python310\Scripts\robot.exe
+  C:\Users\sophie.curinier\AppData\Local\Programs\Python\Python310\python310.zip
+  C:\Users\sophie.curinier\AppData\Local\Programs\Python\Python310\DLLs
+  C:\Users\sophie.curinier\AppData\Local\Programs\Python\Python310\lib
+  C:\Users\sophie.curinier\AppData\Local\Programs\Python\Python310
+  C:\Users\sophie.curinier\AppData\Local\Programs\Python\Python310\lib\site-packages</msg>
+</errors>
+</robot>
